@@ -37,7 +37,7 @@ h1 {
     
 
 
-.randomnumber {
+.targetNumber {
 
     background-color: mediumspringgreen;
     font-size: large;
@@ -71,7 +71,7 @@ h1 {
 
 }
 
-#crystal1 {
+.crystal-image {
 
     border: solid black 1px;
     padding: 0px 0px 0px 0px;
@@ -81,35 +81,6 @@ h1 {
 
 }
 
-#crystal2 {
-
-    border: solid black 1px;
-    padding: 0px 0px 0px 0px;
-    display: inline-block;
-   
-
- 
-
-}
-
-#crystal3 {
-
-    border: solid black 1px;
-    padding: 0px 0px 0px 0px;
-    
-
-
-}
-
-#crystal4{
-
-    border: solid black 1px;
-    padding: 0px px 0px 0px;
-    
-
-
-
-}
 
 button:hover {
 
