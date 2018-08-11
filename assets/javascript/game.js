@@ -8,7 +8,7 @@ console.log(targetNumber);
 var counter = 0;
 
 var numberOptions = [];
-for (var i=0, t=4; i<t; i++) {
+ for (var i =0, t=1; i<t; i++) {
     numberOptions.push(Math.round(Math.random() * (12 - 1) + 1));
     console.log(numberOptions);
 }
@@ -21,11 +21,19 @@ console.log(this);
 
 
 
+
+
+//jquery here
 $(document).ready(function(){ 
 
     $(".number").html("<h2>" + targetNumber + "</h2>");
-    $(".number").addClass("number")
-     
+    $(".number").addClass("number");
+
+    
+
+
+    
+
 
 
 

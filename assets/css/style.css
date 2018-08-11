@@ -59,7 +59,7 @@ h1 {
     
 }
 
-.crystals {
+.crystals-image {
 
     
     padding: 10px 0px 10px 0px;
@@ -71,11 +71,20 @@ h1 {
 
 }
 
-.crystal-image {
+.Crystals {
 
     border: solid black 1px;
-    padding: 0px 0px 0px 0px;
+   
+    height: 70px;
+    width: 70px;
+
+    padding: 10px 0px 10px 0px;
     display: inline-block;
+    margin-right: 820px;
+    border: solid black 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
     
 
 
