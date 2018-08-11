@@ -14,9 +14,9 @@ var numberOptions = [];
 }
 
 
-console.log(this);
 
 
+var imageCrystal = ("<img>");
 
 
 
@@ -29,12 +29,22 @@ $(document).ready(function(){
     $(".number").html("<h2>" + targetNumber + "</h2>");
     $(".number").addClass("number");
 
+
+    
+
+
+    $("imageCrystal").addClass("Crystals");
+    $("imageCrystal").attr("src", "assets/images/crystal1.jpg");
+
+    $(".img1").append("<img" + imageCrystal + ">");
+
     
 
 
     
 
 
+    
 
 
 
@@ -47,4 +57,6 @@ $(document).ready(function(){
 
 
 
-})
+
+
+});
