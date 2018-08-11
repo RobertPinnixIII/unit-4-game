@@ -59,36 +59,82 @@ h1 {
     
 }
 
-.crystals-image {
-
-    
-    padding: 10px 0px 10px 0px;
-    display: inline-block;
-    margin-right: 820px;
-    border: solid black 1px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-}
-
 .Crystals {
 
-    border: solid black 1px;
+   position: relative;
+   border: solid black 1px;
+   float:left;
+   padding: 0px 0px 0px 0px;
+   margin-right:820px;
    
-    height: 70px;
-    width: 70px;
+}
 
+
+
+
+
+.crystal1 {
+
+    
+    clear: both;
+   
+    
+    
     padding: 10px 0px 10px 0px;
-    display: inline-block;
-    margin-right: 820px;
+    
+    
     border: solid black 1px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    
 
     
 
 
 }
+
+.crystal2 {
+
+   
+    clear: both;
+   
+    
+   
+    padding: 10px 0px 10px 0px;
+   
+   
+    border: solid black 1px;
+   
+}
+
+.crystal3 {
+
+    
+    clear: both;
+   
+    
+    
+    padding: 10px 0px 10px 0px;
+    
+    
+    border: solid black 1px;
+}
+    
+
+
+.crystal4 {
+
+    
+    clear: both;
+   
+    
+  
+    padding: 10px 0px 10px 0px;
+    
+    
+    border: solid black 1px;
+   
+}
+
+
 
 
 button:hover {
@@ -101,7 +147,8 @@ button:hover {
 
 
 .total {
-
+   
+    clear: both;
     background-color: chartreuse;
     margin-right: 820px;
     padding-bottom: 10px;

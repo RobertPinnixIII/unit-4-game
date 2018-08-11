@@ -1,3 +1,8 @@
+$(document).ready(function(){
+
+
+
+
 var targetNumber = [];
 for (var i =0, t=1; i<t; i++) {
     targetNumber.push(Math.round(Math.random() * (120 - 19) + 19));
@@ -24,7 +29,7 @@ var imageCrystal = ("<img>");
 
 
 //jquery here
-$(document).ready(function(){ 
+ 
 
     $(".number").html("<h2>" + targetNumber + "</h2>");
     $(".number").addClass("number");
@@ -33,11 +38,7 @@ $(document).ready(function(){
     
 
 
-    $("imageCrystal").addClass("Crystals");
-    $("imageCrystal").attr("src", "https://imgs.tuts.dragoart.com/how-to-draw-crystals_1_000000020584_5.png");
-
-    $(".Crystals").append("<div>" + imageCrystal + "</div>");
-
+   
     
 
 
