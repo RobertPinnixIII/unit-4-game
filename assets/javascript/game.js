@@ -34,9 +34,9 @@ $(document).ready(function(){
 
 
     $("imageCrystal").addClass("Crystals");
-    $("imageCrystal").attr("src", "assets/images/crystal1.jpg");
+    $("imageCrystal").attr("src", "https://imgs.tuts.dragoart.com/how-to-draw-crystals_1_000000020584_5.png");
 
-    $(".img1").append("<img" + imageCrystal + ">");
+    $(".Crystals").append("<div>" + imageCrystal + "</div>");
 
     
 
